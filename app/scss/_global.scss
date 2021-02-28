@@ -1,0 +1,79 @@
+@import 'vars';
+
+
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+div {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+button {
+  cursor: pointer;
+}
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-width: 320px;
+  font-family: "AvenirNextCyr-Regular", sans-serif;
+  color: #aebcd2;
+  background-color: $violet1;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #fff;
+  margin-bottom: 24px;
+}
